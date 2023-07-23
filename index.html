@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
@@ -13,18 +13,66 @@
     <!-- manrope font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
 
     <style>
         .font-manrope {
             font-family: 'Manrope', sans-serif;
         }
+
+        .text-title-color {
+            color: #1C1C1C;
+        }
+
+        .text-text-color {
+            color: #777;
+        }
     </style>
 
 </head>
 
-<body>
-    <header></header>
+<body class="mx-48 font-manrope">
+
+    <!-- header section -->
+
+    <header>
+
+        <!-- banner section -->
+        
+        <div class="hero h-screen">
+            <div class="flex justify-between items-center space-x-40">
+                <div>
+                    <h1 class="text-7xl font-extrabold leading-tight text-title-color">
+                        It's good
+                        <br>
+                        tea time at The
+                        <br>
+                        Tea House
+                    </h1>
+                    <p class="text-lg font-medium leading-7 py-6 text-text-color">
+                        Tea and Botanical Solutions Supplier Give Optimum
+                        <br>
+                        Satisfaction To Your Taste Buds.
+                    </p>
+                    <button class="btn btn-primary bg-btn w-56 h-16 rounded-xl bg-gradient-to-r from-[#FF8938] to-[#F00] border-none">
+                        <span class="text-xl font-bold">Explore More</span>
+                        <img src="images/arrow.png" alt="">
+                    </button>
+                </div>
+                <div class="-mr-0">
+                    <img src="/images/banner.png" class="w-[460px]" />
+                    <div class="flex justify-between items-center w-60 h-24 rounded-xl p-5 bg-white drop-shadow-md -mt-20">
+                        <img src="images/star.png" alt="">
+                        <div>
+                            <h3 class="text-3xl font-extrabold">5.00</h3>
+                            <p class="font-semibold">Trust Pilot Ratings</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 </body>
 
 </html>
